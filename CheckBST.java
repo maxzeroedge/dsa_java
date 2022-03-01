@@ -126,7 +126,7 @@ public class CheckBST {
                 } else if(root.data >= maxChild) {
                     return null;
                 }
-                return root.right.data;
+                return maxChild;
             }
             return root.data;
         }
